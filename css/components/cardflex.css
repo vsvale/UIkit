@@ -1,0 +1,35 @@
+.cardflex{
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  margin: 10px 10px;
+  border-radius: 6px;
+  border-top: 1px solid rgba(36, 180, 151, 0.2);
+  text-justify: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 45%;
+  flex-grow: 1;
+
+}
+
+.cardflex img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 6px;
+}
+
+.cardflex h3{
+    flex-grow: 1;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18px;
+    padding: 0 10px;
+
+}
+
+.cardflex a{
+width: 10rem;
+padding: 20px 0;
+font-size: 20px;
+}

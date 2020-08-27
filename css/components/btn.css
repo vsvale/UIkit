@@ -1,0 +1,22 @@
+a{
+      text-decoration: none;
+      background-color:#3297D3;
+      color: #FFF;
+      transition: color 0.3s ease;
+      border-radius: 4px;
+      padding: 13px;
+      letter-spacing: 0.5px;
+      font-weight: 600;
+      font-family: 'Roboto',sans-serif;
+}
+
+
+a:hover{
+    background-color:#2460A7FF;
+    color: #FFF;
+    text-decoration: none;
+  }
+
+a > span {
+  padding-right: 10px;
+}

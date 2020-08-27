@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('components/container.css');
+@import url('components/avatar.css');
+@import url('components/btn.css');
+@import url('components/card.css');
+@import url('components/banner.css');
+@import url('components/flex-box.css');
+@import url('components/cardflex.css');
+
+* {
+  box-sizing: border-box;
+}
+
+main article h1,h2,h3,h4,h5,h5{
+  font-family: 'Lora',serif;
+  font-weight: bold;
+
+}
+
+main article p{
+  font-family: 'Roboto',sans-serif;
+  font-size: 18px;
+  padding-bottom: 10px;
+  color: rgb(30,30,30);
+}
+
+
+
+article{
+  text-align: center;
+}
+
+body{
+    background: #f6f9fc;
+    margin: 0;
+}
+
+#feedback{
+  display: none;
+}
+
+#feedback:target{
+  display: block;
+}
